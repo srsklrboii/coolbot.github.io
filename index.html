@@ -21,7 +21,8 @@
 	<p><a href="https://plus.google.com/100166307333587886063">My Google+ Profile...</a></p>
 	<input id="passwordInput" type="username" placeholder="Enter username here">
 	<input id="usernameInput" type="password" placeholder="Enter password here">
-	<a class="btn  mb4" href="/vip-page.html" onclick="return checkPassword();">Click here to login...</a> {
+	<a class="btn  mb4" href="/vip-page.html" onclick="return checkPassword();">Click here to login...</a>
+	<script>
 		function checkPassword() {
 		var username = document.getElementById("usernameInput");
         	var password = document.getElementById("passwordInput");
@@ -35,7 +36,7 @@
           		return false;
       		}
 		}
-	}      	
+	</script>
 	<footer class="container">
 		<div class="row">
 			<p class="col-sm-4">&copy; 2018 srsklrboii</p>
