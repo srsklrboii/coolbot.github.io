@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>srsklrboii</title>
+	<link rel="icon"  type="image/png"    href="icon.png">
+</head>
+<body>
+<header class="container">
+		<div class-"code">
+			<h1>srsklrboii</h1>
+		</div>
+	</header>
+  <p><h2>Login:</h2></p>
+	<input id="usernameInput" type="username" placeholder="Enter username here">
+	<input id="passwordInput" type="password" placeholder="Enter password here">
+	<button type="button" href="vip-page.html" onclick="return checkPassword();">Click here to login...</button>
+	<script>
+		function checkPassword() {
+		var username = document.getElementById("usernameInput");
+        	var password = document.getElementById("passwordInput");
+		var user = username.value;
+        	var pass = password.value;
+        	if (user == "srsklrboii" && pass == "bruhadmin") {
+          		window.open("/vip-page.html","_self");
+			return true;
+        	}
+		if (user == "freeaccount" && pass == "123free") {
+			window.open("/free-account.html","_self");
+			return true;
+		}
+        	else {
+          		window.open("/error-page.html","_self");
+          		return false;
+      		}
+		}
+	</script>
+  <p>Free account credentials:</p>
+	<blockquote cite="coolbotdiscordbot.weebly.com">Username: <code>freeaccount</code></blockquote>
+	<blockquote cite="coolbotdiscordbot.weebly.com">Password: <code>123free</code></blockquote>
+	<p>(Be quick! This login is available only for a limited time! After this, you have to DM me if you want to register!)</p>
+	<p>Registered VIP Users: 1</p>
+  <footer class="container">
+		<div class="row">
+			<p class="col-sm-4">&copy; 2018 srsklrboii</p>
+		</div>
+	</footer>
+  </body>
+  </html>
